@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head> 
+<body>
+    <header id="header">
+        <h1>The Weather App</h1>
+        <div id="a-div">
+            <a id = "someID" href="/index.html">Geo Location</a>
+            <a id = "someID" href="/zip/zip.html">Zip Code</a>
+            <!-- <a id = "someID" href="/weekly/weekly.html">Weekly</a> -->
+    </div>
+    </header>
+<main>
+    <div id="boxOne">
+        <div id="bxOne-city"></div>
+        <div id="bxOne-time"></div>
+        <div id="bxOne-temp"></div>
+        <div id="bxOne-description"></div>
+        <div id="bxOne-wind">
+            <i class="fas fa-wind"></i>
+        </div>
+        <div id="bxOne-highLow">
+            <i class="fas fa-temperature-high"></i>
+        </div>
+        <!-- <div id="animation-holder">
+            <div class="sunny"></div>
+            <div class="thundery">
+                <div class="thundery__cloud"></div>
+                <div class="thundery__rain"></div>
+            </div>
+            <div class="partly_cloudy">
+                <div class="partly_cloudy__sun"></div>
+                <div class="partly_cloudy__cloud"></div>
+            </div>
+            <div class="cloudy"></div>
+            <div class="rainy">
+                <div class="rainy__cloud"></div>
+                <div class="rainy__rain"></div>
+            </div>
+            
+        </div> -->
+    </div>
+    <br>
+    <div id="boxTwo">
+        <div id="bxTwo-words"></div>
+        <div id="bxTwo-Container">
+            <div id="bxTwo-Morning">
+                <p>Morning</p>
+            </div>
+            <div id="bxTwo-Afternoon">
+                <p>Afternoon</p>
+            </div>
+            <div id="bxTwo-evening">
+                <p>Evening</p>
+            </div>
+            <div id="bxTwo-night">
+                <p>Night</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</main>
+
+<footer>
+    <p class="credit">Made using <a href="https://openweathermap.org" target= "_blank">Open Weather Map</a></p>
+</footer>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/b2e3eb7f32.js" crossorigin="anonymous"></script>
+</body>
+</html>
